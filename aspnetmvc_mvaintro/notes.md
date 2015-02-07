@@ -5,7 +5,31 @@ Source: http://www.microsoftvirtualacademy.com/training-courses/introduction-to-
     Sites ************************** Services **************
     WebForms *** WebPages *** SinglePageApps *** SignalR ***
                               MVC *** WebApi *** 
-    ASP.NET ************************************************    
+    ASP.NET ************************************************
+
+
+    Request comes to a controller - or, concrete - METHOD ON A CLASS. Not a file.
+
+    Controller retrieves a model and "does stuff" - 
+    in end, creates a view and provides data for it.
+
+    View is send as response.
+
+    Model has data.
+    Controller has logic and does not know about HTML.
+    View has HTML and has no logic.
+
+    WebForms downsides: 
+        * page lifecycle (master, page, control)
+        * viewstate
+
+    MVC
+        structure from the start
+        testability (safety for future code changes)
+
+
+
+
 
 
 
