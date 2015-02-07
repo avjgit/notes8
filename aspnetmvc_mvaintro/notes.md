@@ -28,12 +28,26 @@ Source: http://www.microsoftvirtualacademy.com/training-courses/introduction-to-
         testability (safety for future code changes)
 
 
+    Name of pages in Views matches method names in Controller.
 
-
-
-
+    Dynamic resizing via Bootstrap built-in.
 
 02 Creating and Configuring Models
+
+    Model is, again, a class.
+
+    Attributes - DataType, Display, Validation (Required, StringLength, RegExs)
+
+    DataTypes: CreditCard, Currency, Email, Password, Url
+
+    Attribute on Model is propageted and enforced evetywhere.
+
+    Alt F12 - cool in-window Show definition
+
+    Alt V C - view source
+
+
+
 03 The Power of Visual Studio
 04 Customizing Controllers
 05 Customizing Views
