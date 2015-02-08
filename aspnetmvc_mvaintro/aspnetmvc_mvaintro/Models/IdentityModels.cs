@@ -33,5 +33,7 @@ namespace aspnetmvc_mvaintro.Models
         public System.Data.Entity.DbSet<aspnetmvc_mvaintro.Models.Review> Reviews { get; set; }
 
         public System.Data.Entity.DbSet<aspnetmvc_mvaintro.Models.Album> Albums { get; set; }
+
+        public System.Data.Entity.DbSet<aspnetmvc_mvaintro.Models.Artist> Artists { get; set; }
     }
 }

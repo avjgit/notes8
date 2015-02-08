@@ -40,15 +40,18 @@ Source: http://www.microsoftvirtualacademy.com/training-courses/introduction-to-
 
     DataTypes: CreditCard, Currency, Email, Password, Url
 
-    Attribute on Model is propageted and enforced evetywhere.
+    Attribute on Model is propageted and enforced everywhere.
 
     Alt F12 - cool in-window Show definition
 
     Alt V C - view source
 
-
+    Validation: ModelState.IsValid
 
 03 The Power of Visual Studio
+
+    Scaffolding - generates controllers and views based on models
+
 04 Customizing Controllers
 05 Customizing Views
 06 Introduction to Bootstrap

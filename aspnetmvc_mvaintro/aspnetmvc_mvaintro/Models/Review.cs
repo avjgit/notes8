@@ -14,6 +14,7 @@ namespace aspnetmvc_mvaintro.Models
 
         public string Contents { get; set; }
 
+        [Required]
         [Display(Name="Email")]
         [DataType(DataType.EmailAddress)]
         public string ReviewerEmail { get; set; }
