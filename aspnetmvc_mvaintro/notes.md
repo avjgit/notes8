@@ -52,6 +52,8 @@ Source: http://www.microsoftvirtualacademy.com/training-courses/introduction-to-
 
     Scaffolding - generates controllers and views based on models
 
+    The difference with WebForm - generation happens at design, not compile time
+
 04 Customizing Controllers
 05 Customizing Views
 06 Introduction to Bootstrap
